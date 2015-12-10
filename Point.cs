@@ -11,17 +11,11 @@ namespace Shake
 
 		public Point ()
 		{
-			Console.Write ("  \n");
-			Console.Write ("Создание нового объекта!");
-			Console.Write ("  \n");
+			
 		}
 
 		public Point(int _x,int _y,char _sym)
 		{
-			Console.Write ("  \n");
-			Console.Write ("Создание нового объекта!");
-			Console.Write ("  \n");
-
 			x = _x;
 			y = _y;
 			sym = _sym;
