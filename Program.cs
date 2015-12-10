@@ -6,11 +6,11 @@ namespace Shake
 		public static void Main (string[] args)
 		{
 
-			Point p1 = new Point ();
+			Point p1 = new Point (4,4,'*');
 
-			p1.x = 4;
-			p1.y = 4;
-			p1.sym = '*';
+			//p1.x = 4;
+			//p1.y = 4;
+			//p1.sym = '*';
 			p1.Draw ();
 
 			Point p2 = new Point ();
