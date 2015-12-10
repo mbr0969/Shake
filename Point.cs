@@ -11,6 +11,8 @@ namespace Shake
 
 		public Point ()
 		{
+			Console.Write ("Создание нового объекта!");
+			Console.Write (" \n");
 		}
 
 		public void Draw()
