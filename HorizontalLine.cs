@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
 namespace Shake
 {
-	public class HorizontalLine
+	public class HorizontalLine : Figra
 	{
-		List<Point> pList;
+		
 
 		public HorizontalLine (int xLeft, int xRight, int y, char sym)
 		{
@@ -16,11 +20,6 @@ namespace Shake
 			}
 		}
 
-		public void Draw()
-		{
-			foreach (Point p in pList) {
-				p.Draw ();
-			}
-		}
+
 	}
 }

@@ -1,28 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Shake
 {
-	public class VertikalLine
+	public class VertikalLine : Figra
 	{
-		List<Point> vList;
+
 				
-		public VertikalLine (int x, int yUp,int yDown,char sym)
+		public VertikalLine (int yUp,int yDown, int x, char sym)
 		{
-			vList = new List<Point>();
+			pList = new List<Point>();
 			for(int y = yUp; y <= yDown; y++)
 			{
 				Point v = new Point(x, y,sym);
-				vList.Add(v);
+				pList.Add(v);
 			}
 		}
 
-		public void Draw()
-		{
-			foreach (Point v in vList) {
-				v.Draw ();
-			}
-		}
+
 	}
 }
 

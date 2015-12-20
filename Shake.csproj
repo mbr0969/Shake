@@ -40,6 +40,9 @@
     <Compile Include="Point.cs" />
     <Compile Include="HorizontalLine.cs" />
     <Compile Include="VertikalLine.cs" />
+    <Compile Include="Figra.cs" />
+    <Compile Include="Snake.cs" />
+    <Compile Include="Direction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

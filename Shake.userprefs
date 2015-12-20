@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="Shake.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake.cs">
     <Files>
-      <File FileName="Program.cs" Line="16" Column="25" />
-      <File FileName="Point.cs" Line="24" Column="4" />
+      <File FileName="Program.cs" Line="22" Column="34" />
+      <File FileName="Point.cs" Line="45" Column="3" />
+      <File FileName="Direction.cs" Line="5" Column="9" />
+      <File FileName="Snake.cs" Line="10" Column="31" />
+      <File FileName="HorizontalLine.cs" Line="2" Column="1" />
+      <File FileName="VertikalLine.cs" Line="16" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
